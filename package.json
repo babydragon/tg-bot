@@ -1,0 +1,21 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "tg bot from daily use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "xxx"
+  },
+  "author": "babydragon",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "node-telegram-bot-api": "^0.30.0",
+    "shutdown-hook": "^1.1.1",
+    "sqlite3": "^3.1.13"
+  }
+}
