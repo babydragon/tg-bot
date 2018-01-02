@@ -4,11 +4,11 @@
   "description": "tg bot from daily use",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --experimental-modules ./index.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "xxx"
+    "url": "git@github.com:babydragon/tg-bot.git"
   },
   "author": "babydragon",
   "license": "MIT",
@@ -16,6 +16,6 @@
     "node-fetch": "^1.6.3",
     "node-telegram-bot-api": "^0.30.0",
     "shutdown-hook": "^1.1.1",
-    "sqlite3": "^3.1.13"
+    "sqlite": "^2.9.0"
   }
 }
